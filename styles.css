@@ -1,0 +1,150 @@
+:root {
+    --grey-500: #4d4f62; 
+    --grey-400: #6a7178;
+    --white: #ffffff;
+    --red: #ea5454;
+    --cyan: #44d3d2;
+    --blue: #549ef2;
+    --orange: #fcae4a;
+}
+* {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.screen-grid {
+    display: grid;
+    grid-template-rows: 20% auto;
+}
+
+.screen-grid-top {
+    background-color: chocolate;
+}
+
+.screen-grid-bottom {
+    background-color: darksalmon;
+}
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+}
+
+.centered-box {
+    width: auto;
+    min-height: auto;
+    background-color: red;
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+
+.item {
+  width: 5rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+.grid-item-1 {
+  background-color: lime;
+}
+
+.grid-item-2 {
+  background-color: pink;
+}
+
+.grid-item-3 {
+  background-color: azure;
+}
+
+.grid-item-4 {
+  background-color: yellow;
+}
+
+@media screen and (min-width: 786px) {
+
+  .centered-box {
+      width: auto;
+      min-height: auto;
+      background-color: red;
+      box-sizing: border-box;
+      display:grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 1rem;
+  }
+
+
+
+  .grid-item-1 {
+    grid-row: 1;
+    grid-column: 2 / span 2;
+  }
+
+  .grid-item-2 {
+    grid-row: 2;
+    grid-column: 1/ span 2;
+  }
+
+  .grid-item-3 {
+    grid-row: 2;
+    grid-column: 3 / span 2;
+  }
+
+  .grid-item-4 {
+    grid-row: 3;
+    grid-column: 2 / span 2;
+  }
+}
+
+
+
+@media screen and (min-width: 1100px) {
+
+  .centered-box {
+      width: auto;
+      min-height: auto;
+      background-color: red;
+      box-sizing: border-box;
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 1rem;
+  }
+
+
+  .grid-item-1 {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+  }
+
+  .grid-item-2 {
+    grid-column: 2;
+    grid-row: 1/ span 2;
+  }
+
+  .grid-item-3 {
+    grid-column: 2;
+    grid-row: 3 / span 2;
+  }
+
+  .grid-item-4 {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+  }
+}
+
+
+  /* Frontend Mentor's attribution stuff */
+    .attribution { font-size: 11px; text-align: center; margin-block-start: 2rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  
+
