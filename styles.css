@@ -206,12 +206,13 @@ body {
   }
   .item {
     width: 23.33rem;
+    height: 15.67rem;
   }
 
   .header-item {
     width:36rem;
-    margin-top: 6rem;
-    margin-bottom: 1.5rem;
+    margin-top: 6.1rem;
+    margin-bottom: 1.4rem;
   }
 
   .grid-item-1 {
