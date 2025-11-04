@@ -24,11 +24,11 @@ header {
 
 .header-item {
     width:20.93rem;
-    margin-top: 3.73rem;
+    margin-block-start: 3.73rem;
 }
 
 .teaser {
-    margin-top: 1rem;
+    margin-block-start: 0.95rem;
 }
 
 body {
@@ -60,7 +60,7 @@ body {
     letter-spacing: 0px;
     font-weight: 600;
     color: var(--grey-500);
-    margin-bottom: 0.4rem;
+    margin-block-end: 0.4rem;
 }
 
 .text-preset-4 {
@@ -86,7 +86,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 3rem;
+  margin-block-start: 3rem;
 
 }
 
@@ -114,19 +114,19 @@ body {
 }
 
 .grid-item-1 {
-  border-top: 0.25rem solid var(--cyan);
+  border-block-start: 0.25rem solid var(--cyan);
 }
 
 .grid-item-2 {
-  border-top: 0.25rem solid var(--red);
+  border-block-start: 0.25rem solid var(--red);
 }
 
 .grid-item-3 {
-  border-top: 0.25rem solid var(--orange);
+  border-block-start: 0.25rem solid var(--orange);
 }
 
 .grid-item-4 {
-  border-top: 0.25rem solid var(--blue);
+  border-block-start: 0.25rem solid var(--blue);
 }
 
 
@@ -136,7 +136,7 @@ body {
 .feature-icon {
     display: flex;
     justify-content: right;
-    margin-top: 2.133rem;
+    margin-block-start: 2.133rem;
 }
 @media screen and (min-width: 786px) {
 
@@ -160,8 +160,8 @@ body {
 
   .header-item {
     width:36rem;
-    margin-top: 5.33rem;
-    margin-bottom: 2.9rem;
+    margin-block-start: 5.33rem;
+    margin-block-end: 2.9rem;
   }
   .grid-item-1 {
     grid-row: 2;
@@ -212,8 +212,8 @@ body {
 
   .header-item {
     width:36rem;
-    margin-top: 6.1rem;
-    margin-bottom: 1.35rem;
+    margin-block-start: 6.1rem;
+    margin-block-end: 1.35rem;
   }
 
   .grid-item-1 {
