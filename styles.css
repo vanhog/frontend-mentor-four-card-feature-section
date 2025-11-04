@@ -108,7 +108,8 @@ body {
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.250) 0px 4px 4px 0px;
   box-sizing: border-box;
-  padding: 2.13rem;
+  padding-block: 1.5rem;
+  padding-inline: 2.5rem;
 
 }
 
@@ -212,7 +213,7 @@ body {
   .header-item {
     width:36rem;
     margin-top: 6.1rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.35rem;
   }
 
   .grid-item-1 {
