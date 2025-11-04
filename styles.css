@@ -97,7 +97,7 @@ body {
     display:grid;
     grid-template-columns: 1fr;
     gap: 2.13rem;
-    background-color: var(--white);
+   /* background-color: var(--white);*/
 }
 
 
@@ -210,8 +210,8 @@ body {
 
   .header-item {
     width:36rem;
-    margin-top: 6.8rem;
-    margin-bottom: 2.9rem;
+    margin-top: 7.3rem;
+    margin-bottom: 3rem;
   }
 
   .grid-item-1 {
