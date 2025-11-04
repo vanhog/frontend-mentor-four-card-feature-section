@@ -8,6 +8,8 @@
     --cyan: #44d3d2;
     --blue: #549ef2;
     --orange: #fcae4a;
+
+    --bodycolor: #fafafa;
 }
 * {
   padding: 0rem;
@@ -32,6 +34,7 @@ header {
 body {
     font-family: "Poppins", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
+    background-color: var(--bodycolor);
 }
 
 .text-preset-1 {
@@ -83,7 +86,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-/*  min-height: 100vh;*/
   margin-top: 3rem;
 
 }
@@ -95,6 +97,7 @@ body {
     display:grid;
     grid-template-columns: 1fr;
     gap: 2.13rem;
+    background-color: var(--white);
 }
 
 
@@ -157,6 +160,7 @@ body {
   .header-item {
     width:36rem;
     margin-top: 5.33rem;
+    margin-bottom: 2.9rem;
   }
   .grid-item-1 {
     grid-row: 2;
@@ -202,12 +206,12 @@ body {
   }
   .item {
     width: 23.33rem;
-    margin-top: 6.8rem;
   }
 
   .header-item {
     width:36rem;
     margin-top: 6.8rem;
+    margin-bottom: 2.9rem;
   }
 
   .grid-item-1 {
