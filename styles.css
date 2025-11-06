@@ -139,7 +139,7 @@ body {
     justify-content: right;
     margin-block-start: 2.133rem;
 }
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 52rem) {
 
   .centered-box {
       width: auto;
@@ -187,7 +187,7 @@ body {
 
 
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 74rem) {
 
   .centered-box {
       width: auto;
@@ -241,7 +241,7 @@ body {
 
 
   /* Frontend Mentor's attribution stuff */
-    .attribution { font-size: 11px; text-align: center; margin-block-start: 2rem;}
+    .attribution { font-size: 0.75rem; text-align: center; margin-block-start: 2rem;}
     .attribution a { color: hsl(228, 45%, 44%); }
   
 
