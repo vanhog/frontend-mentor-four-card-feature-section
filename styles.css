@@ -20,14 +20,15 @@ header {
     text-align: center;
     display: grid;
     place-items: center;
+
 }
 
-.header-item {
+.header-items {
     width:20.93rem;
     margin-block-start: 3.73rem;
 }
 
-.teaser {
+.header-items__teaser {
     margin-block-start: 0.95rem;
 }
 
@@ -101,7 +102,7 @@ body {
 }
 
 
-.item {
+.feature-card {
   width: 20.93rem;
   height: 16.67rem;
   background-color: var(--white);
@@ -130,10 +131,10 @@ body {
 }
 
 
-.feature-text {
+.feature-card__text {
     text-align: left;
 }
-.feature-icon {
+.feature-card__icon {
     display: flex;
     justify-content: right;
     margin-block-start: 2.133rem;
@@ -158,7 +159,7 @@ body {
     font-size: 2.4rem;
   }
 
-  .header-item {
+  .header-items {
     width:36rem;
     margin-block-start: 5.33rem;
     margin-block-end: 2.9rem;
@@ -205,12 +206,13 @@ body {
   .text-preset-2 {
     font-size: 2.4rem;
   }
-  .item {
+
+  .feature-card {
     width: 23.33rem;
     height: 15.67rem;
   }
 
-  .header-item {
+  .header-items {
     width:36rem;
     margin-block-start: 6.1rem;
     margin-block-end: 1.35rem;
